@@ -6,8 +6,13 @@
 	font-weight: bold;
 	/*height: ;*/
 }
+html,body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
 
-body
+html,body
 {
 	/*background-color: firebrick;*/
 	width: 900px;
@@ -19,10 +24,10 @@ body
 	position: absolute;
 	border: 1px solid #79BCEA ;
 	bottom: 0px;
-	left: 350px;
+	left: 340px;
 	right: 0px;
 	height:450px;
-	width: 525px;
+	width: 490px;
 	margin-left: -35px;
-	margin-bottom: 25px;
+	margin-bottom: 3px;
 }
