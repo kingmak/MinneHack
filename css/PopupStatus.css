@@ -4,11 +4,30 @@
 	font-size : 20px;
 	text-align: center;
 	font-weight: bold;
-	height: ;
+	/*height: ;*/
+}
+html,body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
-body
+html,body
 {
-	width: 800px;
+	/*background-color: firebrick;*/
+	width: 900px;
 	height: 500px;
+}
+
+#videoFrame
+{
+	position: absolute;
+	border: 1px solid #79BCEA ;
+	bottom: 0px;
+	left: 340px;
+	right: 0px;
+	height:450px;
+	width: 490px;
+	margin-left: -35px;
+	margin-bottom: 3px;
 }
