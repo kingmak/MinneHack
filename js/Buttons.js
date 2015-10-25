@@ -20,6 +20,3 @@ function popupStatus(statusText)
 }
 
 viewTabs();
-
-// FUNCTION CHAINGING is messed up
-document.getElementById("SaveLinks").addEventListener("click", function() { SaveLinks() });
