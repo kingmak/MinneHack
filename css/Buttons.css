@@ -1,0 +1,21 @@
+.scrollContainer
+{
+	position: relative;
+	border: 1px solid #79BCEA;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height:450px;
+    width: 300px;
+}
+
+.innerScroll
+{
+	position: absolute;
+	overflow-y: auto;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+    height: 100%;
+}
