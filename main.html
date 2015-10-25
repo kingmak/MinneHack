@@ -8,15 +8,20 @@
 	</head>
   <body bgcolor = "#ffffff">
     <!-- <button id = "OpenLinks">Open Links</button> -->
-    <center><h3><font color=#79BCEA>Open Tabs</font></h3></center>
-
-    <div class="scrollContainer">
-      <div class="innerScroll">
-        <ol id="openLinks"></ol>
-      </div>
+    <center><h3><font color=#79BCEA>Opened Youtube Tabs</font></h3></center>
+    <div id="sideBar">
+        <div class="scrollContainer">
+          <div class="innerScroll">
+            <ol id="openLinks"></ol>
+          </div>
+        </div>
     </div>
-
-    <script src = "js/Buttons.js"></script>    
+    <div id="videoPlayer">
+        <iframe id="videoFrame" src=""></iframe>
+    </div>
+<script src="jquery-1.11.3.min.js"></script>
     <script src = "js/StatusLabel.js"></script>
+    <script src = "js/Buttons.js"></script>
   </body>
+
 </html>
