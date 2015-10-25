@@ -22,10 +22,6 @@ function viewTabs()
             }
         }
     });
-    console.log(document.links.href)
-    var id = document.activeElement.attributes.href.nodeValue.slice(-11);
-    var file = "https://www.youtube-nocookie.com/embed/" + id +"?autoplay=1";
-    document.getElementById("videoFrame").setAttribute("src",file);
 }
 
 $(document).click(function(){
@@ -35,3 +31,4 @@ $(document).click(function(){
 })
 
 viewTabs();
+
